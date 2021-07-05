@@ -5828,14 +5828,14 @@ body:not(.user-login) #filter-main .bottom-line {
 
 .okrugdistrictbox {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	max-height: 600px;
-	margin: -16px -16px 0 0;
+	margin: -32px 0 0;
+}
+.okrugdistrictbox .row {
+	width: calc(100% / 5 - 16px);
+	margin-right: 16px;
 }
 .okrugdistrictbox .column {
-	margin-right: 16px;
-	margin-top: 16px;
+	margin-top: 32px;
 }
 .okrugdistrictbox .column .item {
 	margin-bottom: 16px;
