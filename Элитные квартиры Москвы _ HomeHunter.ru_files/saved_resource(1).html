@@ -1,0 +1,164 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"><script src="https://cdn.usersnap.com/classic/frontend/assets/js/entries/button/8664e63bce4749cfc9d2.js"></script><style>/* Base button */
+.container {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  height: 2.5em;
+  outline: none;
+  overflow: hidden;
+  padding: 0 1.25em;
+  position: relative;
+  user-select: none;
+  white-space: nowrap;
+}
+
+container:active:not(.loading) {
+  bottom: -1px;
+}
+
+.contentWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentWrapper.loading {
+  animation: blend-out 0.5s linear forwards;
+}
+
+
+/* Icon svg */
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  max-height: 100%;
+  margin-right: 0.5em;
+}
+
+.icon svg {
+  fill: currentColor;
+}
+
+
+/* Content wrapper */
+@keyframes blend-out {
+  100% {
+    opacity: 0.3;
+  }
+}
+
+
+/* Loading wave  */
+@keyframes wave {
+  0%{background-position:0% 0%}
+  100%{background-position: -200% 0%}
+}
+
+@keyframes blend-in {
+  100% {
+    opacity: 1;
+  }
+}
+
+.loadingWave {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0) 68%, rgba(255,255,255, 0.3) 98%, rgba(0,0,0,0) 100%);
+  background-size: 200% 100%;
+  opacity: 0;
+}
+
+.loadingWave.loading {
+  animation: wave 2s 1.5s cubic-bezier(1, 0, 0.5, 1) infinite, blend-in 0.5s 1.5s linear forwards;
+}
+</style><style>html, body {
+  margin: 0;
+  padding: 0;
+}
+</style><style>html, body {
+  font-family: "Inter", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.vanillaButton {
+  background: #3a21ce;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 300;
+  outline: none;
+  padding: 0.6rem 1rem;
+}
+
+.vanillaButton:hover {
+  background: #5742d5;
+}
+
+#notSupportedBrowser {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  overflow: auto;
+  padding: 2rem 0.5rem;
+  text-align: center;
+}
+
+#notSupportedBrowser > * {
+  flex-shrink: 0;
+}
+
+#notSupportedBrowser > h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#notSupportedBrowser > p {
+  margin: 0;
+}
+
+#notSupportedBrowser > ul {
+  list-style: none;
+  margin: 0.5rem 0rem;
+  padding: 0;
+}
+</style><style>html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-family: "Roboto", 'sans-serif';
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}</style></head><body><button class="container" style="background: rgb(58, 33, 206); border-color: rgba(255, 255, 255, 0.5); border-style: solid solid none; border-width: 1px; color: rgb(255, 255, 255); border-radius: 5px 5px 0px 0px;"><div class="contentWrapper"><div class="icon" alt="UserSnap" role="image"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38">
+    <path d="M28.917 15.085a10.819 10.819 0 01.67 2.238c1.06 5.81-2.79 11.381-8.6 12.442-5.105.941-10.23-2.007-11.981-6.895-.225-.63-.392-1.28-.499-1.94a.98.98 0 011.572-.918 10.693 10.693 0 0016.642-4.831c.363-1.015 1.778-1.09 2.196-.096zM19 38C8.507 38 0 29.493 0 19S8.507 0 19 0s19 8.507 19 19-8.507 19-19 19zm0-3.984c8.293 0 15.016-6.723 15.016-15.016S27.293 3.984 19 3.984 3.984 10.707 3.984 19 10.707 34.016 19 34.016z"></path>
+</svg>
+</div><span class="label">Обратная связь</span></div><div class="loadingWave"></div></button></body></html>

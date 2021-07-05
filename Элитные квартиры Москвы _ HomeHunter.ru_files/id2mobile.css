@@ -1,0 +1,310 @@
+@media screen and (max-width: 767px) {
+  .c-page,
+  ymaps .termin-main-box {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .page-node-2 {
+    min-width: 320px;
+  }
+  .page-node-2 .main-title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 16px;
+  }
+  .page-node-2 .about__tabs {
+    margin: 24px 0 32px;
+    padding: 20px 0;
+    background: #f7f7f7;
+  }
+  .page-node-2 .about__tabs .tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    border: 0;
+  }
+  .page-node-2 .about__tabs .tabs .tab {
+    text-align: left;
+  }
+  .page-node-2 .about__tabs .tabs .tab a {
+    display: block;
+    color: #999999;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    padding: 13px 20px;
+  }
+  .page-node-2 .about__tabs .tabs .tab a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 7px;
+    height: 12px;
+    -webkit-mask: url(../../i/icons/arrow.svg) 100% 0% no-repeat;
+    mask: url(../../i/icons/arrow.svg) 100% 0 no-repeat;
+    -webkit-mask-size: 7px !important;
+    mask-size: 7px !important;
+    background: #999;
+  }
+  .page-node-2 .about__tabs .tabs .tab:first-child {
+    margin: 0 0 8px;
+  }
+  .page-node-2 .about__tabs .tabs .tab .active {
+    color: #ffffff;
+    background: #5947b3;
+    border-radius: 4px;
+  }
+  .page-node-2 .about__tabs .tabs .tab a.active::after {
+    background: #fff;
+  }
+  .page-node-2 .about__tabs .tabs .indicator {
+    background: none;
+  }
+  .page-node-2 .about__info-block {
+    padding: 20px;
+    margin-bottom: 32px;
+    border-radius: 5px; 
+  }
+  .page-node-2 .about__info-block .block-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .page-node-2 .about__info-block .block-title span {
+    text-decoration: none;
+  }
+  .page-node-2 .about__info-block .block-subtitle {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about__info-block .block-subtitle span {
+    text-decoration: unset;
+  }
+  .page-node-2 .about__info-block .text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about-desc {
+    padding: 0;
+    margin-bottom: 32px;
+  }
+  .page-node-2 .about-desc .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+  .page-node-2 .about-desc .subtitle {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .page-node-2 .about-desc .text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about-care {
+    padding-bottom: 32px;
+  }
+  .page-node-2 .about-care .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 32px;
+  }
+  .page-node-2 .about-care .text {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 24px;
+  }
+  .page-node-2 .about-care .care-whatWe .whatWe-title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 32px;
+  }
+  .page-node-2 .about-care .care-whatWe .whatWe-blocks .blocks-block {
+    margin: 0 0 8px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
+  .page-node-2 .about-care .care-whatWe .whatWe-blocks .blocks-block span.num {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 16px;
+  }
+  .page-node-2 .about-care.buy .care-whatWe .whatWe-blocks .blocks-block p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about-care .care-tags {
+    margin-top: 32px;
+  }
+  .page-node-2 .about-care .care-tags .tag {
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .page-node-2 .about-whatHH {
+    padding: 32px 0 8px;
+  }
+  .page-node-2 .about-whatHH .title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks {
+    margin-top: 24px;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks .blocks-block {
+    padding-left: 0;
+    width: 100%;
+    margin: 0 0 24px;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks .blocks-block p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks .blocks-block span {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 4px 0 0 71px;
+    min-height: 71px;
+    float: left;
+    width: 100%;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks .blocks-block .block__icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .page-node-2 .about-whatHH .whatHH-blocks .blocks-block .block__icon svg {
+    max-width: 48px;
+    max-height: 48px;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .page-node-2 .about-complex {
+    padding: 28px 0 50px;
+  }
+  .page-node-2 .about-complex .title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .page-node-2 .about-complex .subtitle,
+  .page-node-2 .about-whatHH .subtitle {
+    margin: 24px 0 44px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    border: 0;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab {
+    text-align: left;
+    margin-right: 0;
+    margin: 0 0 8px;
+    height: auto;
+    border-bottom: 1px solid #ebebeb;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab:nth-child(4) {
+    border-bottom: 0;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab a {
+    display: block;
+    color: #999999;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+    padding: 13px 20px;
+    white-space: normal;
+    -o-text-overflow: unset;
+    text-overflow: unset;
+    overflow: auto;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 7px;
+    height: 12px;
+    -webkit-mask: url(../../i/icons/arrow.svg) 100% 0% no-repeat;
+    mask: url(../../i/icons/arrow.svg) 100% 0 no-repeat;
+    -webkit-mask-size: 7px !important;
+    mask-size: 7px !important;
+    background: #999;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab .active {
+    color: #ffffff;
+    background: #5947b3;
+    border-radius: 4px;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .tab a.active::after {
+    background: #fff;
+  }
+  .page-node-2 .about-complex .complex__tabs .tabs .indicator {
+    background: none;
+  }
+  .page-node-2 .about-complex .tab-site {
+    margin-top: 32px;
+  }
+  .page-node-2 .about-complex .tab-site .site-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .page-node-2 .about-complex .tab-site .site-desc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .page-node-2 .about-complex .tab-site .site-desc .text {
+    margin-right: 0;
+    font-size: 15px;
+    line-height: 22px;
+    width: 100%;
+  }
+  .page-node-2 .about-complex .tab-site a {
+    width: 100%;
+    margin: 24px 0 0;
+  }
+  .page-node-2 .about-complex .tab-site .site-desc img {
+    width: 80%;
+    max-width: 400px;
+    margin: 24px auto 0;
+    height: auto !important;
+    margin-top: 24px;
+  }
+  .page-node-2 footer .c-page .bottom-box {
+    border: 0;
+    padding: 0;
+    margin: 32px 0 32px;
+  }
+  .page-node-2 footer .c-page .bottom-box .conf {
+    width: 100%;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2b2b2b;
+  }
+  .page-node-2 footer .c-page .bottom-box .conf a {
+    display: block;
+    margin: 16px 0 0;
+  }
+  .page-node-2 footer .c-page .bottom-box .wl {
+    padding: 0;
+    margin-top: 24px;
+  }
+}
