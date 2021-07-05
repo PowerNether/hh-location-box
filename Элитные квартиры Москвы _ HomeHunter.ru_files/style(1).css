@@ -5854,7 +5854,7 @@ body:not(.user-login) #filter-main .bottom-line {
 	font-weight: 400;
 	color: #999999;
 }
-.okrugdistrictbox .column .item input + span::before {
+.okrugdistrictbox .column .item input[type="checkbox"] + span:not(.lever)::before {
 	background: #FFFFFF;
 	border: 1px solid #CCCCCC;
 	box-sizing: border-box;
@@ -5862,7 +5862,7 @@ body:not(.user-login) #filter-main .bottom-line {
 	width: 20px;
 	height: 20px;
 }
-.okrugdistrictbox .column .item input + span::after {
+.okrugdistrictbox .column .item input[type="checkbox"] + span:not(.lever)::after {
 	width: 16px;
 	height: 16px;
 	-webkit-mask: url('./../check.svg') center / 16px no-repeat;
@@ -5872,7 +5872,7 @@ body:not(.user-login) #filter-main .bottom-line {
 	top: 2px;
 	left: 2px;
 }
-.okrugdistrictbox .column .item input:checked + span::before {
+.okrugdistrictbox .column .item input[type="checkbox"]:checked + span:not(.lever)::before {
 	transform: none;
 	width: 20px;
 	height: 20px;
